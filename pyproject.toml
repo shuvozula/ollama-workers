@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ollama-workers"
+version = "0.1.0"
+description = ""
+authors = ["shuvo <shuvozula@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "ollama_workers" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+langchain-core = "^1.7.6"
+langchain-openai = "^1.7.4"
+langgraph = "^1.2.20"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
