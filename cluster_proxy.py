@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, END
 
 # Connection to LiteLLM Gateway
-config = {"api_key": "fake", "base_url": "http://192.168.2"}
+config = {"api_key": "sk-eeL48ovOOidT93Pyk8-79g", "base_url": "http://192.168.4.70:4000/v1"}
 coder = ChatOpenAI(model="cluster-coder", **config)
 reviewer = ChatOpenAI(model="cluster-reviewer", **config)
 
