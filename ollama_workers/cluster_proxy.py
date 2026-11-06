@@ -8,8 +8,8 @@ from langgraph.graph import StateGraph, END
 # =====================================================================
 # 1. CORE GATEWAY ROUTING CONFIGURATION
 # =====================================================================
-LITELLM_GATEWAY_URL = "http://192.168.2"
-GATEWAY_KEY = "your-litellm-master-key"
+LITELLM_GATEWAY_URL = "http://192.168.4.70:4000"
+GATEWAY_KEY = "sk-d6305d8db9d21e97d64683cca4dd823ac0361302f98f4281a0ffba581ca4377c"
 
 # Instantiate standardized models via LiteLLM abstraction
 config = {"api_key": GATEWAY_KEY, "base_url": LITELLM_GATEWAY_URL}
